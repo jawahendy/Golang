@@ -32,11 +32,11 @@ func (c cube) luas() float64 {
 }
 
 func (l circle) keliling() float64 {
-	return math.Pi * l.radius * l.radius
+	return 2 * math.Pi * l.radius
 }
 
 func (l circle) luas() float64 {
-	return 2 * math.Pi * l.radius
+	return math.Pi * l.radius * l.radius
 }
 
 func main() {
